@@ -9,7 +9,7 @@ html, body {
 /* ตาราง responsive */
 table {
     width: 100%;
-    height: 50%;
+    height: 100%;
     border-collapse: collapse;
 }
 
