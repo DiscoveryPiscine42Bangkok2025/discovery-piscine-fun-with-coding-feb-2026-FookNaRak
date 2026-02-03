@@ -1,0 +1,52 @@
+/* รีเซ็ตพื้นฐาน */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Parallax พื้นฐาน */
+.parallax {
+    height: 100vh;                 /* เต็มจอ */
+    background-attachment: fixed;  /* หัวใจของ parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* รูปแรก */
+.image1 {
+    background-image: url("https://i.redd.it/uipuooyjb4e61.jpg");
+}
+
+/* รูปที่สอง */
+.image2 {
+    background-image: url("https://i.pinimg.com/736x/4b/da/a2/4bdaa23b06619736e31ffa9aef065b5f.jpg");
+}
+
+/* ข้อความตรงกลาง */
+.text {
+    color: white;
+    font-size: 3vw;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+/* กล่องดำตรงกลางหน้า */
+.section {
+    height: 300px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+}

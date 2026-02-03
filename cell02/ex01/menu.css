@@ -1,0 +1,44 @@
+.menu > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #003a8f;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: #0055cc;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    min-width: 180px;
+}
+
+.dropdown-content a {
+    color: black;
+}
+
+.dropdown-content a:hover {
+    background-color: #eee;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

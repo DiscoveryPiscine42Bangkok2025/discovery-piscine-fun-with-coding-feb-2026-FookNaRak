@@ -1,0 +1,62 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 300px;
+    background-color: #e6e6e6;
+    margin: 50px auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/* ตารางล่องหน */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    border: none;
+    padding: 5px;
+}
+
+/* รูปโปรไฟล์ */
+.profile {
+    width: 100%;
+}
+
+/* ข้อความ */
+.login {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.desc {
+    color: gray;
+    font-size: 14px;
+}
+
+.location {
+    font-size: 14px;
+}
+
+/* social icons */
+.social td {
+    font-size: 18px;
+}
+
+/* ปุ่ม */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
